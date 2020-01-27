@@ -1,0 +1,112 @@
+webpackHotUpdate("static/development/pages/marki.js",{
+
+/***/ "./pages/marki.js":
+/*!************************!*\
+  !*** ./pages/marki.js ***!
+  \************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_RegisterLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/RegisterLayout */ "./components/RegisterLayout.js");
+var _jsxFileName = "/Users/tk/Documents/hype/hypemarket/pages/marki.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+function Marki() {
+  return __jsx(_components_RegisterLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    title: "Marki",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("form", {
+    className: "registration-form",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, "nazwa:", __jsx("input", {
+    type: "text",
+    name: "name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  })), __jsx("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "email:", __jsx("input", {
+    type: "text",
+    name: "name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  })), __jsx("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "instagram:", __jsx("input", {
+    type: "text",
+    name: "name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  })), __jsx("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "opis:", __jsx("textarea", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  })), __jsx("label", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "pobierz ofert\u0119"), __jsx("input", {
+    className: "form-submit",
+    type: "submit",
+    value: "wy\u015Blij formularz",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Marki);
+
+/***/ })
+
+})
+//# sourceMappingURL=marki.js.8675aacf3e760f631d6b.hot-update.js.map

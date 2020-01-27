@@ -4,8 +4,25 @@
   "description": "hypermarket website",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "tkupcewicz",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkupcewicz/hypemarket.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/tkupcewicz/hypemarket/issues"
+  },
+  "homepage": "https://github.com/tkupcewicz/hypemarket#readme",
+  "dependencies": {
+    "next": "^9.2.1",
+    "next-fonts": "^1.0.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
 }

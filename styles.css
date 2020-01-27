@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+}
+
+.RegisterLayout {
+  display: flex;
+  flex-flow: column;
+  position: absolute;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  padding: 4%;
+  box-sizing: border-box;
+}
+
+.video-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+}
+
+#video {
+  max-width: 70vw;
+  filter:opacity(60%);
+}
+
+#main-logo {
+  min-width: 100px;
+  width: 12vw;
+  height: auto;
+}
+
+
+.register-header {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.main-logo-container {
+  max-width: 20vw;
+  position: absolute;
+  float: left;
+}
+
+.title-container {
+  left: 50%;
+  position: relative;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, 0)
+}
+
+.title {
+  font-family: HelveticaBold;
+  letter-spacing: calc(-2px);
+  font-size: calc(40px + 1.6vw);
+}
+
+.register-content {
+  display: flexbox;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-tile {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 80%;
+  font-family: HelveticaBold;
+}
+
+.menu-tile:hover {
+  color: #2b48ff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-tile { 
+   float: none;
+   height: 40%;
+   width:auto;
+ }
+
+ .title-container {
+   margin-top: 80px;
+ }
+}
+
+.menu-tile:nth-child(1) {
+  font-size: calc(80px + 1.6vw);
+}
+
+.menu-tile:nth-child(2) {
+  text-align: center;
+  font-size: calc(50px + 1.6vw);
+}
+
+.registration-form {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.registration-form > label {
+  /* background-color: khaki; */
+  width: 100%;
+  float: none;
+  display: inline-flex;
+  margin-top: 3vh;
+}
+
+.registration-form > label > input,  .registration-form > label > textarea{
+  width: 100%;
+  background-color: transparent;
+  border: none;
+}
+
+.form-font {
+  font-family: HelveticaBold;
+  font-size: calc(20px + 1.6vw);
+}
+
+.registration-form > label > textarea {
+  height: 20vh;
+  margin-bottom: 10vh;
+}
+
+#download-offer {
+  width: auto;
+  color: #2b48ff;
+}
+
+.form-submit {
+  float: right;
+  display: inline-flex;
+  margin-top: 3vh;
+  color: #2b48ff;
+  border: none;
+}
+
+
+@font-face {
+  font-family: 'HelveticaBold';
+      src: url('/Helvetica-Bold-Font.ttf');
+}
